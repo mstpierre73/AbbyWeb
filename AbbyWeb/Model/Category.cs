@@ -6,7 +6,7 @@ namespace AbbyWeb.Model {
         [Key]
         public int Id { get; set; }
         [Required]
-        public string NAme { get; set; }
+        public string Name { get; set; }
         [DisplayName("Display Order")]
         [Range(1,100)]
         public int DisplayOrder { get; set; }

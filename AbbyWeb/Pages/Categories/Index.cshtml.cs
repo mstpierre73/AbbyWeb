@@ -15,7 +15,7 @@ namespace AbbyWeb.Pages.Categories
 
         public void OnGet()
         {
-            Categories = _db.Categories;
+            Categories = _db.Category;
         }
     }
 }
