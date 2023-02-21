@@ -1,6 +1,10 @@
 ﻿@page
 @model AbbyWeb.Pages.Categories.IndexModel
 
+@if (TempData["success"] != null) {
+    <h5>@TempData["success"]</h5>
+}
+
 <div class="container p-3">
     <div class="row pt-4">
         <div class="col-6">
@@ -16,10 +20,10 @@
         <thead>
             <tr>
                 <th>
-                    Category Name
+                    <h5>Category Name</h5>
                 </th>
                 <th>
-                    Display Order
+                    <h5>Display Order</h5>
                 </th>
                 <th></th>
             </tr>
